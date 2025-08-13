@@ -11,6 +11,11 @@ header {
   color: #fff;
   padding: 2rem;
   text-align: center;
+  transition: filter 0.3s ease;
+}
+
+header:hover {
+  filter: invert(1);
 }
 
 .subtitle {
